@@ -1,0 +1,7 @@
+#Fri Sep 30 00:37:07 IST 2016
+base.0=/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_66ce7b437a10fdf9968a76e96db410a27b2f48e3
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_78d6970d06ee4df118e53f2f566e3dc69102bb5b/classes.dex
+base.1=/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_78d6970d06ee4df118e53f2f566e3dc69102bb5b
+file.0=/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_66ce7b437a10fdf9968a76e96db410a27b2f48e3/classes.dex
