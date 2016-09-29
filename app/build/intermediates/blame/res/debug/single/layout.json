@@ -4,12 +4,12 @@
         "source": "/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_dialog_title_material.xml"
     },
     {
-        "merged": "/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
-        "source": "/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/notification_template_part_time.xml"
-    },
-    {
         "merged": "/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
         "source": "/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/notification_template_part_time.xml"
     },
     {
         "merged": "/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
@@ -66,6 +66,10 @@
     {
         "merged": "/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
         "source": "/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/res/merged/debug/layout/activity_signup.xml",
+        "source": "/home/ankan/AndroidStudioProjects/SignLog/app/src/main/res/layout/activity_signup.xml"
     },
     {
         "merged": "/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
@@ -126,6 +130,10 @@
     {
         "merged": "/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
         "source": "/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/res/merged/debug/layout/activity_login.xml",
+        "source": "/home/ankan/AndroidStudioProjects/SignLog/app/src/main/res/layout/activity_login.xml"
     },
     {
         "merged": "/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",

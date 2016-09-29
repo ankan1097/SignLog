@@ -4,33 +4,40 @@
     density="tvdpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="11672129098791"
+    timestamp="18287650783585"
     token="2337723733059075648"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="1983" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="318" />
+        duration="0" />
     <task
         name="verifier"
-        duration="24" />
+        duration="0" />
 
     <artifact
-        location="/home/ankan/AndroidStudioProjects/SignLog/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
+        location="/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        type="RESOURCES" />
 
     <build
-        timestamp="11672129098791"
-        verifier="FULL_BUILD_REQUESTED" >
+        timestamp="18131191462115"
+        verifier="MANIFEST_FILE_CHANGE" >
         <artifact
             location="/home/ankan/AndroidStudioProjects/SignLog/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="18287650783585"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>

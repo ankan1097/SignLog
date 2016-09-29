@@ -102,21 +102,21 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="304fb4cfc9587b4229325ec5957966694e431581">
+        <dex dex="/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_78d6970d06ee4df118e53f2f566e3dc69102bb5b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="d5c731fc64c03dfe04d51134955b483551c35849">
         <dex dex="/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_2326989c4e6696e6b62d0c8d672810c24b0eb2bc/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="197c6faaad88abf8721cbbb727b2a99ea98d797c">
-        <dex dex="/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_78d6970d06ee4df118e53f2f566e3dc69102bb5b/classes.dex" />
     </item>
     <item
         is-multidex="true"

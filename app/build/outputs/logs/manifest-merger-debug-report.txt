@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/ankan/AndroidStudioProjects/SignLog/app/src/main/AndroidManifest.xml:2:1-20:12
+ADDED from /home/ankan/AndroidStudioProjects/SignLog/app/src/main/AndroidManifest.xml:2:1-22:12
 	package
 		ADDED from /home/ankan/AndroidStudioProjects/SignLog/app/src/main/AndroidManifest.xml:3:5-40
 		INJECTED from /home/ankan/AndroidStudioProjects/SignLog/app/src/main/AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from /home/ankan/AndroidStudioProjects/SignLog/app/src/main/AndroidManifes
 		INJECTED from /home/ankan/AndroidStudioProjects/SignLog/app/src/main/AndroidManifest.xml
 		INJECTED from /home/ankan/AndroidStudioProjects/SignLog/app/src/main/AndroidManifest.xml
 application
-ADDED from /home/ankan/AndroidStudioProjects/SignLog/app/src/main/AndroidManifest.xml:5:5-18:19
+ADDED from /home/ankan/AndroidStudioProjects/SignLog/app/src/main/AndroidManifest.xml:5:5-20:19
 MERGED from [com.android.support:appcompat-v7:24.2.1] /home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:24.2.1] /home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:24.2.1] /home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/AndroidManifest.xml:25:5-20
@@ -48,6 +48,14 @@ category#android.intent.category.LAUNCHER
 ADDED from /home/ankan/AndroidStudioProjects/SignLog/app/src/main/AndroidManifest.xml:15:17-77
 	android:name
 		ADDED from /home/ankan/AndroidStudioProjects/SignLog/app/src/main/AndroidManifest.xml:15:27-74
+activity#com.example.ankan.signlog.SignUPActivity
+ADDED from /home/ankan/AndroidStudioProjects/SignLog/app/src/main/AndroidManifest.xml:18:9-52
+	android:name
+		ADDED from /home/ankan/AndroidStudioProjects/SignLog/app/src/main/AndroidManifest.xml:18:19-49
+activity#com.example.ankan.signlog.login
+ADDED from /home/ankan/AndroidStudioProjects/SignLog/app/src/main/AndroidManifest.xml:19:9-52
+	android:name
+		ADDED from /home/ankan/AndroidStudioProjects/SignLog/app/src/main/AndroidManifest.xml:19:19-40
 uses-sdk
 INJECTED from /home/ankan/AndroidStudioProjects/SignLog/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:24.2.1] /home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/AndroidManifest.xml:21:5-23:78
