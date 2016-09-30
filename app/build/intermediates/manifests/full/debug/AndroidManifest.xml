@@ -23,7 +23,7 @@
         </activity>
         <activity android:name="com.example.ankan.signlog.SignUPActivity" />
         <activity android:name="com.example.ankan.signlog.login" />
-        <activity android:name="com.example.ankan.UnregisterActivity" />
+        <activity android:name="com.example.ankan.signlog.UnregisterActivity" />
     </application>
 
 </manifest>

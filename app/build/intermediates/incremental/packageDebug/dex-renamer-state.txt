@@ -1,4 +1,4 @@
-#Fri Sep 30 13:35:50 IST 2016
+#Fri Sep 30 20:09:50 IST 2016
 base.0=/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_66ce7b437a10fdf9968a76e96db410a27b2f48e3
 renamed.1=classes.dex
 renamed.0=classes2.dex

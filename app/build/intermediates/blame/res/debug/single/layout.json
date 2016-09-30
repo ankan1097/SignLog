@@ -4,12 +4,12 @@
         "source": "/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_dialog_title_material.xml"
     },
     {
-        "merged": "/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
-        "source": "/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_popup_menu_item_layout.xml"
-    },
-    {
         "merged": "/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
         "source": "/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_popup_menu_item_layout.xml"
     },
     {
         "merged": "/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
@@ -100,16 +100,16 @@
         "source": "/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
-        "source": "/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/notification_template_lines.xml"
-    },
-    {
         "merged": "/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/res/merged/debug/layout/activity_home.xml",
         "source": "/home/ankan/AndroidStudioProjects/SignLog/app/src/main/res/layout/activity_home.xml"
     },
     {
         "merged": "/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
         "source": "/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
+        "source": "/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/notification_template_lines.xml"
     },
     {
         "merged": "/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",

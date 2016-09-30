@@ -4,54 +4,47 @@
     density="tvdpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="9390352453233"
+    timestamp="14755748824457"
     token="2337723733059075648"
-    verifier="FIELD_TYPE_CHANGE" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="202" />
+        duration="115" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="27" />
     <task
         name="instant-run-transform"
-        duration="30" />
+        duration="59" />
     <task
         name="verifier"
-        duration="13" />
+        duration="3" />
 
     <artifact
-        location="/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
-        type="DEX" />
+        location="/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
 
     <build
-        timestamp="5237662608815"
+        timestamp="14338080161031"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/ankan/AndroidStudioProjects/SignLog/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="5699157791000"
-        verifier="CLASS_ADDED" >
-        <artifact
-            location="/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="9390352453233"
-        verifier="FIELD_TYPE_CHANGE" >
+        timestamp="14704324381521"
+        verifier="METHOD_DELETED" >
         <artifact
             location="/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
             type="DEX" />
     </build>
     <build
-        timestamp="18287650783585"
+        timestamp="14755748824457"
         verifier="COMPATIBLE" >
         <artifact
-            location="/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-            type="RESOURCES" />
+            location="/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

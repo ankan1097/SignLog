@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 public class HomeActivity extends Activity
 {
-    Button btnSignIn,btnSignUp;
+    Button btnSignIn,btnSignUp,btnUnregister;
     LoginDataBaseAdapter loginDataBaseAdapter;
 
     @Override
@@ -27,6 +27,48 @@ public class HomeActivity extends Activity
 // Get The Refference Of Buttons
         btnSignIn=(Button)findViewById(R.id.buttonSignIN);
         btnSignUp=(Button)findViewById(R.id.buttonSignUP);
+        btnUnregister=(Button)findViewById(R.id.unRegi) ;
+        btnUnregister.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                final Dialog dialog1 = new Dialog(HomeActivity.this);
+                dialog1.setContentView(R.layout.activity_unregister);
+                dialog1.setTitle("Unregister");
+
+// get the References of views
+                final EditText editTextUserName=(EditText)dialog1.findViewById(R.id.editTextUserNameToUnregister);
+                final EditText editTextPassword=(EditText)dialog1.findViewById(R.id.editTextPasswordToUnregister);
+
+                Button Unregister=(Button)dialog1.findViewById(R.id.buttonUnregister);
+
+// Set On ClickListener
+                Unregister.setOnClickListener(new View.OnClickListener() {
+
+                    public void onClick(View v) {
+// get The User name and Password
+                        String userName=editTextUserName.getText().toString();
+                        String password=editTextPassword.getText().toString();
+
+// fetch the Password form database for respective user name
+                        String storedPassword=loginDataBaseAdapter.getSingleEntry(userName);
+
+// check if the Stored password matches with Password entered by user
+                        if(password.equals(storedPassword))
+                        {
+                            loginDataBaseAdapter.deleteEntry(userName);
+                            Toast.makeText(HomeActivity.this, "Congrats: Unregister Successful", Toast.LENGTH_LONG).show();
+                            dialog1.dismiss();
+                        }
+                        else
+                        {
+                            Toast.makeText(HomeActivity.this, "User Name or Password does not match", Toast.LENGTH_LONG).show();
+                        }
+                    }
+                });
+
+                dialog1.show();
+
+            }
+        });
 
 // Set OnClick Listener on SignUp button
         btnSignUp.setOnClickListener(new View.OnClickListener() {
@@ -76,48 +118,11 @@ public class HomeActivity extends Activity
             }
         });
 
+
         dialog.show();
     }
 
-    public void un(View v){
-        final Dialog dialog1 = new Dialog(HomeActivity.this);
-        dialog1.setContentView(R.layout.activity_unregister);
-        dialog1.setTitle("Unregister");
-
-// get the Refferences of views
-        final EditText editTextUserName=(EditText)dialog1.findViewById(R.id.editTextUserNameToUnregister);
-        final EditText editTextPassword=(EditText)dialog1.findViewById(R.id.editTextPasswordToUnregister);
-
-        Button btnUnRegister=(Button)dialog1.findViewById(R.id.buttonUnregister);
-
-// Set On ClickListener
-        btnUnRegister.setOnClickListener(new View.OnClickListener() {
-
-            public void onClick(View v) {
-// get The User name and Password
-                String userName=editTextUserName.getText().toString();
-                String password=editTextPassword.getText().toString();
-
-// fetch the Password form database for respective user name
-                String storedPassword=loginDataBaseAdapter.getSingleEntry(userName);
-
-// check if the Stored password matches with Password entered by user
-                if(password.equals(storedPassword))
-                {
-                    loginDataBaseAdapter.deleteEntry(userName);
-                    Toast.makeText(HomeActivity.this, "Congrats: Unregister Successful", Toast.LENGTH_LONG).show();
-                    dialog1.dismiss();
-                }
-                else
-                {
-                    Toast.makeText(HomeActivity.this, "User Name or Password does not match", Toast.LENGTH_LONG).show();
-                }
-            }
-        });
-
-        dialog1.show();
-    }
-    @Override
+       @Override
     protected void onDestroy() {
         super.onDestroy();
 // Close The Database

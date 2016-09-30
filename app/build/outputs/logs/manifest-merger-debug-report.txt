@@ -56,10 +56,10 @@ activity#com.example.ankan.signlog.login
 ADDED from /home/ankan/AndroidStudioProjects/SignLog/app/src/main/AndroidManifest.xml:19:9-43
 	android:name
 		ADDED from /home/ankan/AndroidStudioProjects/SignLog/app/src/main/AndroidManifest.xml:19:19-40
-activity#com.example.ankan.UnregisterActivity
-ADDED from /home/ankan/AndroidStudioProjects/SignLog/app/src/main/AndroidManifest.xml:20:9-82
+activity#com.example.ankan.signlog.UnregisterActivity
+ADDED from /home/ankan/AndroidStudioProjects/SignLog/app/src/main/AndroidManifest.xml:20:9-90
 	android:name
-		ADDED from /home/ankan/AndroidStudioProjects/SignLog/app/src/main/AndroidManifest.xml:20:19-70
+		ADDED from /home/ankan/AndroidStudioProjects/SignLog/app/src/main/AndroidManifest.xml:20:19-78
 uses-sdk
 INJECTED from /home/ankan/AndroidStudioProjects/SignLog/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:24.2.1] /home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/AndroidManifest.xml:21:5-23:78
