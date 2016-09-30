@@ -60,7 +60,7 @@ public class LoginDataBaseAdapter
 // Toast.makeText(context, "Number fo Entry Deleted Successfully : "+numberOFEntriesDeleted, Toast.LENGTH_LONG).show();
         return numberOFEntriesDeleted;
     }
-    public String getSinlgeEntry(String userName)
+    public String getSingleEntry(String userName)
     {
         Cursor cursor=db.query("LOGIN", null, " USERNAME=?", new String[]{userName}, null, null, null);
         if(cursor.getCount()<1) // UserName Not Exist
@@ -73,15 +73,27 @@ public class LoginDataBaseAdapter
         cursor.close();
         return password;
     }
-    public void updateEntry(String userName,String password)
+    public boolean usernameExist(String userName)
     {
+        Cursor cursor=db.query("LOGIN", null, " USERNAME=?", new String[]{userName}, null, null, null);
+        if(cursor.getCount()<1)
+        {
+            cursor.close ();
+            return false;
+        }
+        else
+        {
+            return true;
+        }
+    }
+    public void updateEntry(String userName,String password) {
 // Define the updated row content.
         ContentValues updatedValues = new ContentValues();
 // Assign values for each row.
         updatedValues.put("USERNAME", userName);
-        updatedValues.put("PASSWORD",password);
+        updatedValues.put("PASSWORD", password);
 
-        String where="USERNAME = ?";
-        db.update("LOGIN",updatedValues, where, new String[]{userName});
+        String where = "USERNAME = ?";
+        db.update("LOGIN", updatedValues, where, new String[]{userName});
     }
 }

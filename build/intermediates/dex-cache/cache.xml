@@ -106,7 +106,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="304fb4cfc9587b4229325ec5957966694e431581">
+        sha1="c8f22a9275e669e0fee9989091d324be68ae3721">
         <dex dex="/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_78d6970d06ee4df118e53f2f566e3dc69102bb5b/classes.dex" />
     </item>
     <item

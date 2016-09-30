@@ -22,6 +22,12 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Sign Up" />
-
+    <Button
+        android:layout_below="@id/buttonSignUP"
+        android:id="@+id/unRegi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Unregister"
+        android:onClick="un"/>
 
 </RelativeLayout>

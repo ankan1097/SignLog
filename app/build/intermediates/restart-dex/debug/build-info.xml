@@ -4,33 +4,47 @@
     density="tvdpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="18287650783585"
+    timestamp="9390352453233"
     token="2337723733059075648"
-    verifier="COMPATIBLE" >
+    verifier="FIELD_TYPE_CHANGE" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="202" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="30" />
     <task
         name="verifier"
-        duration="0" />
+        duration="13" />
 
     <artifact
-        location="/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-        type="RESOURCES" />
+        location="/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="18131191462115"
-        verifier="MANIFEST_FILE_CHANGE" >
+        timestamp="5237662608815"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/ankan/AndroidStudioProjects/SignLog/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="5699157791000"
+        verifier="CLASS_ADDED" >
+        <artifact
+            location="/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="9390352453233"
+        verifier="FIELD_TYPE_CHANGE" >
+        <artifact
+            location="/home/ankan/AndroidStudioProjects/SignLog/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
+            type="DEX" />
     </build>
     <build
         timestamp="18287650783585"

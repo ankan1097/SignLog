@@ -50,6 +50,12 @@ public class SignUPActivity extends Activity
                     Toast.makeText(getApplicationContext(), "Password does not match", Toast.LENGTH_LONG).show();
                     return;
                 }
+                if(loginDataBaseAdapter.usernameExist(userName))
+                {
+// check username already exists or not
+                    Toast.makeText(getApplicationContext(), "Username already exists", Toast.LENGTH_SHORT).show();
+                    return;
+                }
                 else
                 {
 // Save the Data in Database
